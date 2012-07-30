@@ -1,0 +1,95 @@
+﻿body 
+{
+    font-size:14px;
+}
+
+a{text-decoration: none;}
+a:link {
+color: #666666;
+text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #666666;
+}
+a:hover {
+	text-decoration: none;
+	color: #11449D;
+}
+a:active {
+text-decoration: none;
+color: #11449D;
+}
+
+
+#top #up li
+{
+    display:block;
+    float:left;
+    margin:0 8px 0 8px;
+}
+
+#top #up ul
+{
+    list-style:none;margin:0px;padding:0px;
+}
+
+#top #down li
+{
+    display:block;
+    float:left;
+    margin:0 5px 0 5px;
+}
+
+#top #down ul
+{
+    list-style:none;margin:0px;padding:0px;
+}
+
+#context #leftMenu ul
+{
+    list-style:none;margin:0px;padding:0px; text-align:center; vertical-align:middle;
+    line-height:35px;   
+        overflow:hidden;  
+}
+
+#context #leftMenu li
+{
+    display:block;    height:35px; text-align:center; vertical-align:middle;
+    background:#fffbd1;   
+        line-height:35px;   
+        overflow:hidden;  
+}
+
+
+#leftMenu
+{
+    width:160px;vertical-align:middle; text-align:center;
+}
+
+#main 
+{
+    float:right;width:772px;padding:0px;margin:0px;
+}
+
+#context
+{
+     margin: 8px auto;width:940px;padding:0;
+}
+
+#Global
+{
+     margin: 8px auto;
+}
+
+#divTip
+{
+    background:#FCD77F; text-align:left;vertical-align:middle; padding-left:20px;height:30px;  line-height:30px;overflow:hidden;  
+    margin-top:2px;margin-bottom:2px;
+}
+
+#divSearch
+{
+    background:#E4E4E4; text-align:left;vertical-align:middle; padding-left:20px;height:30px;  line-height:30px; overflow:hidden;  
+    margin-top:2px;margin-bottom:2px;
+}

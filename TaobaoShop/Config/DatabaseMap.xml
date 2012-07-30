@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><map>
+  <database name="TaobaoShop" type="MsSqlServer">
+    <parameter name="User ID" value="sa" />
+    <parameter name="Data Source" value="122.227.207.206" />
+    <parameter name="Provider" value="SQLOLEDB.1" />
+    <parameter name="Initial Catalog" value="TaobaoShop" />
+    <parameter name="Password" value="`1q2w3e4r" />
+    <classMapFile path="ClassMap.xml" />
+  </database></map>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+  <ul name="宝贝管理">
+    <li name="修改名称" url="../ItemManager/Item_ModifyName.aspx" code="ModifyName"></li>
+    <li name="修改价格" url="../ItemManager/Item_ModifyPrice.aspx" code="ModifyPrice"></li>
+  </ul>
+  <ul name="仓库管理">
+    <li name="自动上架" url="../ItemManager/Item_AutoRelist.aspx" code="AutoRelist"></li>
+    <li name="定时上架" url="../ItemManager/Item_ScheduledRelist.aspx" code="ScheduledRelist"></li>
+  </ul>
+  <ul name="橱窗管理">
+    <li name="自动橱窗" url="../RecommendManager/AutoRecommend.aspx" code="AutoRecommend"></li>
+    <li name="定时橱窗" url="../RecommendManager/ScheduledRecommend.aspx" code="ScheduledRecommend"></li>
+  </ul>
+  <ul name="评价管理">
+    <li name="自动评价" url="../TraderateManager/AutoTraderate.aspx" code="AutoTraderate"></li>
+    <li name="评价监控" url="../TraderateManager/MonitorTraderate.aspx" code="MonitorTraderate"></li>
+  </ul>
+</menu>
