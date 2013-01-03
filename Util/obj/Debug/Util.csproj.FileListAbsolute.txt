@@ -1,0 +1,5 @@
+E:\feidu\git\TBAPP\Util\bin\Debug\Util.dll
+E:\feidu\git\TBAPP\Util\bin\Debug\Util.pdb
+E:\feidu\git\TBAPP\Util\obj\Debug\Util.csprojResolveAssemblyReference.cache
+E:\feidu\git\TBAPP\Util\obj\Debug\Util.dll
+E:\feidu\git\TBAPP\Util\obj\Debug\Util.pdb

@@ -1,0 +1,13 @@
+E:\feidu\git\TBAPP\TaobaoShop\bin\TaobaoShop.dll
+E:\feidu\git\TBAPP\TaobaoShop\bin\TaobaoShop.pdb
+E:\feidu\git\TBAPP\TaobaoShop\bin\Action.dll
+E:\feidu\git\TBAPP\TaobaoShop\bin\Entity.dll
+E:\feidu\git\TBAPP\TaobaoShop\bin\PersistenceLayer.dll
+E:\feidu\git\TBAPP\TaobaoShop\bin\TopSdk.dll
+E:\feidu\git\TBAPP\TaobaoShop\bin\Util.dll
+E:\feidu\git\TBAPP\TaobaoShop\bin\Action.pdb
+E:\feidu\git\TBAPP\TaobaoShop\bin\Entity.pdb
+E:\feidu\git\TBAPP\TaobaoShop\bin\Util.pdb
+E:\feidu\git\TBAPP\TaobaoShop\obj\Debug\TaobaoShop.csprojResolveAssemblyReference.cache
+E:\feidu\git\TBAPP\TaobaoShop\obj\Debug\TaobaoShop.dll
+E:\feidu\git\TBAPP\TaobaoShop\obj\Debug\TaobaoShop.pdb

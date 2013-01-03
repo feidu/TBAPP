@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?><map>
+  <class name="tb_AutoSwitchEntity" table="tb_AutoSwitch" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="switch" column="switch" type="String" />
+    <attribute name="Description" column="Description" type="String" />
+  </class>
+  <class name="tb_GoldTimeSchemeEntity" table="tb_GoldTimeScheme" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="SchemeName" column="SchemeName" type="String" />
+    <attribute name="user_id" column="user_id" type="Integer" />
+    <attribute name="created" column="created" type="Date" />
+    <attribute name="interval" column="interval" type="Integer" />
+  </class>
+  <class name="tb_GoldTimeslotEntity" table="tb_GoldTimeslot" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="TimeslotName" column="TimeslotName" type="String" />
+    <attribute name="startTime" column="startTime" type="Date" />
+    <attribute name="endTime" column="endTime" type="Date" />
+    <attribute name="created" column="created" type="Date" />
+    <attribute name="user_id" column="user_id" type="Integer" />
+  </class>
+  <class name="tb_GoldTimeslotSchemeDetailsEntity" table="tb_GoldTimeslotSchemeDetails" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="GT_id" column="GT_id" type="Integer" />
+    <attribute name="dayOfWeek" column="dayOfWeek" type="Integer" />
+    <attribute name="Scheme_id" column="Scheme_id" type="Integer" />
+  </class>
+  <class name="tb_InGoldTimeItemsEntity" table="tb_InGoldTimeItems" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="num_iid" column="num_iid" type="BigInt" />
+    <attribute name="created" column="created" type="Date" />
+    <attribute name="nick" column="nick" type="String" />
+  </class>
+  <class name="tb_LdleTimeslotEntity" table="tb_LdleTimeslot" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="startTime" column="startTime" type="Date" />
+    <attribute name="endTime" column="endTime" type="Date" />
+    <attribute name="isFull" column="isFull" type="Boolean" />
+    <attribute name="nick" column="nick" type="String" />
+  </class>
+  <class name="tb_MessageQueueEntity" table="tb_MessageQueue" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="topic" column="topic" type="String" />
+    <attribute name="status" column="status" type="String" />
+    <attribute name="nick" column="nick" type="String" />
+    <attribute name="MsgJson" column="MsgJson" type="String" />
+    <attribute name="state" column="state" type="Boolean" />
+  </class>
+  <class name="tb_RecommendResultEntity" table="tb_RecommendResult" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="nick" column="nick" type="String" />
+    <attribute name="isSuccess" column="isSuccess" type="Boolean" />
+    <attribute name="Result" column="Result" type="String" />
+    <attribute name="operatTime" column="operatTime" type="Date" />
+    <attribute name="type" column="type" type="String" />
+  </class>
+  <class name="tb_RelistReslutEntity" table="tb_RelistReslut" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="nick" column="nick" type="String" />
+    <attribute name="isSuccess" column="isSuccess" type="Boolean" />
+    <attribute name="Result" column="Result" type="String" />
+    <attribute name="operatTime" column="operatTime" type="Date" />
+    <attribute name="type" column="type" type="String" />
+  </class>
+  <class name="tb_ScheduleRelistQueueEntity" table="tb_ScheduleRelistQueue" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="num_iid" column="num_iid" type="BigInt" />
+    <attribute name="Schedule" column="Schedule" type="Date" />
+    <attribute name="item_title" column="item_title" type="String" />
+    <attribute name="created" column="created" type="Date" />
+    <attribute name="user_id" column="user_id" type="Integer" />
+    <attribute name="state" column="state" type="Boolean" />
+  </class>
+  <class name="tb_SwitchPropertyEntity" table="tb_SwitchProperty" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="switch_id" column="switch_id" type="Integer" />
+    <attribute name="proName" column="proName" type="String" />
+    <attribute name="Description" column="Description" type="String" />
+  </class>
+  <class name="tb_TraderateContextEntity" table="tb_TraderateContext" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="Context" column="Context" type="String" />
+    <attribute name="state" column="state" type="Boolean" />
+    <attribute name="user_id" column="user_id" type="Integer" />
+    <attribute name="created" column="created" type="Date" />
+  </class>
+  <class name="tb_TraderateResultEntity" table="tb_TraderateResult" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="nick" column="nick" type="String" />
+    <attribute name="isSuccess" column="isSuccess" type="Boolean" />
+    <attribute name="Result" column="Result" type="String" />
+    <attribute name="operatTime" column="operatTime" type="Date" />
+    <attribute name="type" column="type" type="String" />
+  </class>
+  <class name="tb_UserEntity" table="tb_User" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="nick" column="nick" type="String" />
+    <attribute name="email" column="email" type="String" />
+    <attribute name="syslevel" column="syslevel" type="String" />
+    <attribute name="authEndTime" column="authEndTime" type="Date" />
+    <attribute name="created" column="created" type="Date" />
+    <attribute name="type" column="type" type="String" />
+    <attribute name="SessionKey" column="SessionKey" type="String" />
+  </class>
+  <class name="tb_User_SwitchEntity" table="tb_User_Switch" database="TaobaoShop">
+    <attribute name="user_id" column="user_id" type="Integer" key="primary" />
+    <attribute name="switch_id" column="switch_id" type="Integer" key="primary" />
+    <attribute name="state" column="state" type="Boolean" />
+    <attribute name="created" column="created" type="Date" />
+  </class>
+  <class name="tb_User_SwitchPropertyEntity" table="tb_User_SwitchProperty" database="TaobaoShop">
+    <attribute name="user_id" column="user_id" type="Integer" key="primary" />
+    <attribute name="switchProerty_id" column="switchProerty_id" type="Integer" key="primary" />
+    <attribute name="state" column="state" type="Boolean" />
+    <attribute name="created" column="created" type="Date" />
+  </class>
+  <class name="tb_ScheduleRecommendQueueEntity" table="tb_ScheduleRecommendQueue" database="TaobaoShop">
+    <attribute name="id" column="id" type="Integer" increment="true" key="primary" />
+    <attribute name="num_iid" column="num_iid" type="BigInt" />
+    <attribute name="Schedule" column="Schedule" type="Date" />
+    <attribute name="item_title" column="item_title" type="String" />
+    <attribute name="created" column="created" type="Date" />
+    <attribute name="user_id" column="user_id" type="Integer" />
+    <attribute name="state" column="state" type="Boolean" />
+  </class>
+</map>
